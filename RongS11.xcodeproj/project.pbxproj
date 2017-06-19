@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		29A30D4F1EF76AC4003FDAA2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A30D4E1EF76AC4003FDAA2 /* main.swift */; };
+		29A30D561EF76AD9003FDAA2 /* RongAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A30D551EF76AD9003FDAA2 /* RongAPI.swift */; };
+		29A30D581EF76E11003FDAA2 /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A30D571EF76E11003FDAA2 /* TestAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		29A30D4B1EF76AC4003FDAA2 /* RongS11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RongS11; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A30D4E1EF76AC4003FDAA2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		29A30D551EF76AD9003FDAA2 /* RongAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RongAPI.swift; sourceTree = "<group>"; };
+		29A30D571EF76E11003FDAA2 /* TestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				29A30D4E1EF76AC4003FDAA2 /* main.swift */,
+				29A30D571EF76E11003FDAA2 /* TestAPI.swift */,
+				29A30D551EF76AD9003FDAA2 /* RongAPI.swift */,
 			);
 			path = RongS11;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A30D581EF76E11003FDAA2 /* TestAPI.swift in Sources */,
+				29A30D561EF76AD9003FDAA2 /* RongAPI.swift in Sources */,
 				29A30D4F1EF76AC4003FDAA2 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
